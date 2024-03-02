@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1060px;
+    min-height: 1000px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0px 35px 55px;
+}
+.container .leftside {
+    position: relative;
+    background: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%);;
+    padding: 40px;
+}
+.container .rightside {
+    position: relative;
+    background: white;
+    color: black;
+    padding: 40px;
+}
+ .profiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white(255,255,255,0.2);
+ }
+ .profiletext .imgbox {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+ }
+ .profiletext .imgbox img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ .profiletext h2 {
+    color: black;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+ }
+ .profiletext h2 span {
+    font-size: 0.7em;
+    font-weight: 300;
+ }
+ .contactinfo {
+    padding-top: 10px;
+ }
+ .title {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+ }
+ .contactinfo ul {
+    position: relative;
+ }
+ .contactinfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 5px 0;
+    cursor: pointer;
+ }
+ .contactinfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: aqua;
+ }
+ .contactinfo ul li span {
+    color: black;
+    font-weight: 300;
+ }
+ .contactinfo h5 {
+    color: black;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 20px;
+ }
+ .contactinfo h4 {
+    padding: 3px;
+    font-weight: 500;
+    font-size: 20px;
+ }
+ .contactinfo h2 {
+    padding: 3px;
+    font-weight: 500;
+    font-size: 20px;
+ }
+ .Interest ul  {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+ .Interest {
+    margin-top: 10px;
+ }
+ .Interest  li {
+    font-weight: 600;
+    font-size: 15px;
+ }
+ .Interest ul li .fa {
+    color: #16A085;
+ }
+ .about {
+    margin-bottom: 50px;
+ }
+ 
+ .title2 {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 600;
+ }
+ .title3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 600;
+ }
+ .title4 {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    font-weight: 600;
+ }
+ .contactinfo.languages .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: whitesmoke;
+    display: block;
+    margin-top: 5px;
+    
+ }
+ .contactinfo.languages .percent div {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+ }
+ .about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+ }
+ .about .box .year 
+ {
+    min-width: 150px;
+ }
+ .about .box .year h5 {
+    color: #848c90;
+    font-weight: 600;
+ }
+ .about .box .text h4 {
+    color: #2a7da2;
+    font-weight: 600;
+    padding: 2px;
+ }
+ .skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+ }
+ .skills .box h4 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 500;
+ }
+ .skills .box  .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: whitesmoke;
+ }
+ .skills .box  .percent div {
+    position: absolute;
+    height: 100%;
+    background: black;
+ }
+ 
+ 
